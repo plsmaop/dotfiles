@@ -1,18 +1,11 @@
 [user]
-  name = kirintwn
-  email = cy91244@gmail.com
+  name = plsmaop
+  email = allenivan@gmail.com
 
 #############################################################
 # switch / replace git user conditionally                   #
 # reference: https://git-scm.com/docs/git-config#_includes  #
-#                                                           #
-# [user]                                                    #
-#   name = kirin-hou                                        #
-#   email = kirin_hou@trendmicro.com                        #
 #############################################################
-[includeIf "gitdir:~/works/trend/"]
-  path = ~/works/trend/.gitconfig
-
 [core]
   ignorecase = false
   excludesfile = ~/.config/git/ignore
