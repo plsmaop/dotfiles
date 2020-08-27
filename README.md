@@ -62,8 +62,10 @@ My lovely dotfiles, managed with git bare repository, adhering [XDG Base Directo
 
 ## Restore dotfiles to a new machine
 
-- Prerequisites: `curl`, `wget`, `git`, `svn`, `GnuPG` & `zsh`
-
+- Prerequisites: `curl`, `wget`, `git`, `svn`, `GnuPG` `gcc`, `g++`, `make` & `zsh`
+```
+sudo apt install curl wget git subversion gnupg gnupg2 zsh gcc make g++
+```
 - Installation:
 
   1. Clone & checkout
