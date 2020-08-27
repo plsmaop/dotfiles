@@ -35,6 +35,7 @@ export NODE_REPL_HISTORY="$XDG_DATA_HOME/node/node_repl_history"
 
 # golang
 export GOPATH="$XDG_DATA_HOME/go"
+export PATH="$GOPATH/bin:$PATH"
 
 # docker
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
