@@ -58,3 +58,28 @@ export TEALDEER_CACHE_DIR="$XDG_CACHE_HOME/tealdeer"
 export LESSHISTFILE=-
 ## wget
 alias wget="wget --no-hsts"
+
+# llvm
+# Created by `userpath` on 2020-03-02 05:35:55
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="/usr/local/opt/flex/bin:$PATH"
+
+ # function alias
+function csiews() {
+    if [ ${#2} -gt '3' ]; then
+        ssh $1@$2.csie.ntu.edu.tw
+    else
+        ssh $1@linux$2.csie.ntu.edu.tw
+    fi
+}
+
+function cpcsiews() {
+    if [ $1 == 'd' ]; then
+        scp $2@linux$3.csie.ntu.edu.tw:$4 $5
+    elif [ $1 == 'u' ]; then
+        scp $4 $2@linux$3.csie.ntu.edu.tw:$5
+    fi
+}
+
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
