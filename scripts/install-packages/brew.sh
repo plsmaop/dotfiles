@@ -49,4 +49,8 @@ brew install --cask zoomus
 brew install --cask microsoft-outlook
 
 
+brew tap riscv/riscv
+brew install riscv-tools
+brew install qemu
+
 brew cleanup

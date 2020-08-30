@@ -83,3 +83,6 @@ function cpcsiews() {
 }
 
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#
+# risc-v
+# PATH=$PATH:/usr/local/opt/riscv-gnu-toolchain/bin
